@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "adapter": "disabled",
+  "requested_model": "Gemini 4 Argon",
+  "model_id": null,
+  "reasoning_effort": null
+}

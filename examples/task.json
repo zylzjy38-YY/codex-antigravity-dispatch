@@ -1,0 +1,12 @@
+{
+  "goal": "Reply with summary exactly DISPATCH_SMOKE_OK and empty blockers and evidence arrays.",
+  "background": "A nonsensitive text-only integration probe explicitly authorized by the user.",
+  "domain": "hard_knowledge",
+  "work_dir": "REPLACE_WITH_AN_EXISTING_ABSOLUTE_DIRECTORY",
+  "inputs": [],
+  "access": "read-only",
+  "allowed_write_paths": [],
+  "acceptance": ["The structured summary equals DISPATCH_SMOKE_OK."],
+  "constraints": ["Do not use tools, read or write files, access URLs, or delegate."],
+  "network": "none"
+}

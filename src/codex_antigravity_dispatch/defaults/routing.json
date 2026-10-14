@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "domains": {
+    "frontend_visual": {
+      "specialty": "Frontend visual design and interaction prototypes",
+      "preferred_executor": "antigravity",
+      "basis": "Example preference, not a claim of benchmark superiority.",
+      "evidence_status": "preference_pending_project_validation"
+    },
+    "frontend_implementation": {
+      "specialty": "Frontend pages, components and accessibility",
+      "preferred_executor": "antigravity",
+      "basis": "Example preference; Codex integrates and verifies the result.",
+      "evidence_status": "preference_pending_project_validation"
+    },
+    "complex_deliverables": {
+      "specialty": "Complex work products and structured research deliverables",
+      "preferred_executor": "antigravity",
+      "basis": "Example preference; validate against the actual task.",
+      "evidence_status": "preference_pending_project_validation"
+    },
+    "hard_knowledge": {
+      "specialty": "Difficult academic questions and interdisciplinary reasoning",
+      "preferred_executor": "antigravity",
+      "basis": "Example preference; independently verify sources and reasoning.",
+      "evidence_status": "preference_pending_project_validation"
+    },
+    "engineering": {
+      "specialty": "Architecture, backend, debugging, tests and integration",
+      "preferred_executor": "codex",
+      "basis": "Coordinator ownership in this example policy.",
+      "evidence_status": "example_responsibility"
+    },
+    "research_verification": {
+      "specialty": "Source retrieval and factual verification",
+      "preferred_executor": "ask_user",
+      "basis": "Select according to available sources and tools.",
+      "evidence_status": "task_specific"
+    },
+    "saas_workflows": {
+      "specialty": "SaaS workflow planning",
+      "preferred_executor": "ask_user",
+      "basis": "A routing decision does not authorize external writes.",
+      "evidence_status": "task_specific"
+    },
+    "scientific_code": {
+      "specialty": "Scientific computing and model implementation",
+      "preferred_executor": "ask_user",
+      "basis": "Select after considering correctness and validation requirements.",
+      "evidence_status": "task_specific"
+    },
+    "document_reasoning": {
+      "specialty": "Professional document analysis",
+      "preferred_executor": "ask_user",
+      "basis": "Select according to document format and evidence requirements.",
+      "evidence_status": "task_specific"
+    }
+  }
+}
